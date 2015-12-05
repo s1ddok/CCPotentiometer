@@ -24,14 +24,14 @@
  */
 
 
-#import "CCControlPotentiometer.h"
+#import "CCPotentiometer.h"
 #import "CCControlSubclass.h"
 #import "CCSprite.h"
 #import "CCProgressNode.h"
 #import "CCActionEase.h"
 #import "CCActionTween.h"
 
-@interface CCControlPotentiometer () 
+@interface CCPotentiometer () 
 @property (nonatomic, strong) CCSprite        *thumbSprite;
 @property (nonatomic, strong) CCSprite        *trackSprite;
 @property (nonatomic, strong) CCProgressNode  *progressTimer;
@@ -56,7 +56,7 @@
 
 @end
 
-@implementation CCControlPotentiometer
+@implementation CCPotentiometer
 @synthesize value            = _value;
 @synthesize minimumValue     = _minimumValue;
 @synthesize maximumValue     = _maximumValue;

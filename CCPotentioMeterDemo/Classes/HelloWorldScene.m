@@ -26,7 +26,7 @@
         [self addChild:_valueLabel];
         
         // Add the slider
-        self.potentiometer          = [CCControlPotentiometer potentiometerWithTrackFile:@"potentiometerTrack.png"
+        self.potentiometer          = [CCPotentiometer potentiometerWithTrackFile:@"potentiometerTrack.png"
                                                                             progressFile:@"potentiometerProgress.png"
                                                                                thumbFile:@"potentiometerButton.png"];
         _potentiometer.positionType  = CCPositionTypeNormalized;
@@ -41,7 +41,7 @@
     return self;
 }
 
--(void)potentiometerTriggeredAction:(CCControlPotentiometer*)sender {
+-(void)potentiometerTriggeredAction:(CCPotentiometer*)sender {
     self.valueLabel.string = [NSString stringWithFormat:@"%.02f", sender.value];
 }
 

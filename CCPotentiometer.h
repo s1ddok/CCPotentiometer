@@ -30,12 +30,12 @@
 /** 
  * Potentiometer control for Cocos2D.
  *
- * A CCControlPotentiometer object is a visual control used to select a 
+ * A CCPotentiometer object is a visual control used to select a 
  * single value in a circular motion from a continuous range of values.
  * An indicator notes the current value of the potentiometer and can be
  * moved by the user to change the setting.
  */
-@interface CCControlPotentiometer : CCControl {
+@interface CCPotentiometer : CCControl {
 @public
     float _value;
     float _minimumValue;

@@ -205,7 +205,7 @@
 		08B176EF1C1255E100031899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176EE1C1255E100031899 /* AppDelegate.m */; };
 		08B176F21C1255E100031899 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176F11C1255E100031899 /* HelloWorldScene.m */; };
 		08B176F41C1255E100031899 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B176F31C1255E100031899 /* white_square.png */; };
-		08B176FF1C12563300031899 /* CCControlPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176FE1C12563300031899 /* CCControlPotentiometer.m */; };
+		08B176FF1C12563300031899 /* CCPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176FE1C12563300031899 /* CCPotentiometer.m */; };
 		08B1770C1C125AF400031899 /* potentiometerButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177001C125AF400031899 /* potentiometerButton-hd.png */; };
 		08B1770D1C125AF400031899 /* potentiometerButton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177011C125AF400031899 /* potentiometerButton-ipad.png */; };
 		08B1770E1C125AF400031899 /* potentiometerButton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177021C125AF400031899 /* potentiometerButton-ipadhd.png */; };
@@ -677,8 +677,8 @@
 		08B176F01C1255E100031899 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		08B176F11C1255E100031899 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		08B176F31C1255E100031899 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
-		08B176FD1C12563300031899 /* CCControlPotentiometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlPotentiometer.h; sourceTree = SOURCE_ROOT; };
-		08B176FE1C12563300031899 /* CCControlPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlPotentiometer.m; sourceTree = SOURCE_ROOT; };
+		08B176FD1C12563300031899 /* CCPotentiometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPotentiometer.h; sourceTree = SOURCE_ROOT; };
+		08B176FE1C12563300031899 /* CCPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPotentiometer.m; sourceTree = SOURCE_ROOT; };
 		08B177001C125AF400031899 /* potentiometerButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-hd.png"; sourceTree = "<group>"; };
 		08B177011C125AF400031899 /* potentiometerButton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-ipad.png"; sourceTree = "<group>"; };
 		08B177021C125AF400031899 /* potentiometerButton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-ipadhd.png"; sourceTree = "<group>"; };
@@ -793,8 +793,8 @@
 		08B174641C1255DF00031899 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				08B176FD1C12563300031899 /* CCControlPotentiometer.h */,
-				08B176FE1C12563300031899 /* CCControlPotentiometer.m */,
+				08B176FD1C12563300031899 /* CCPotentiometer.h */,
+				08B176FE1C12563300031899 /* CCPotentiometer.m */,
 				08B175411C1255E000031899 /* LICENSE_cocos2d.txt */,
 				08B1761B1C1255E100031899 /* LICENSE_CCBReader.txt */,
 				08B176E61C1255E100031899 /* LICENSE_Chipmunk.txt */,
@@ -1717,7 +1717,7 @@
 				08B175471C1255E000031899 /* CCEffectRenderer.m in Sources */,
 				08B174BC1C1255DF00031899 /* ccFPSImages.m in Sources */,
 				08B175DD1C1255E000031899 /* base64.c in Sources */,
-				08B176FF1C12563300031899 /* CCControlPotentiometer.m in Sources */,
+				08B176FF1C12563300031899 /* CCPotentiometer.m in Sources */,
 				08B176281C1255E100031899 /* OALAudioActions.m in Sources */,
 				08B174F21C1255E000031899 /* CCPhysicsBody.m in Sources */,
 				08B1762B1C1255E100031899 /* OALUtilityActions.m in Sources */,
