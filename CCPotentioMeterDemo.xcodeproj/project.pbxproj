@@ -205,6 +205,19 @@
 		08B176EF1C1255E100031899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176EE1C1255E100031899 /* AppDelegate.m */; };
 		08B176F21C1255E100031899 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176F11C1255E100031899 /* HelloWorldScene.m */; };
 		08B176F41C1255E100031899 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B176F31C1255E100031899 /* white_square.png */; };
+		08B176FF1C12563300031899 /* CCControlPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B176FE1C12563300031899 /* CCControlPotentiometer.m */; };
+		08B1770C1C125AF400031899 /* potentiometerButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177001C125AF400031899 /* potentiometerButton-hd.png */; };
+		08B1770D1C125AF400031899 /* potentiometerButton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177011C125AF400031899 /* potentiometerButton-ipad.png */; };
+		08B1770E1C125AF400031899 /* potentiometerButton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177021C125AF400031899 /* potentiometerButton-ipadhd.png */; };
+		08B1770F1C125AF400031899 /* potentiometerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177031C125AF400031899 /* potentiometerButton.png */; };
+		08B177101C125AF400031899 /* potentiometerProgress-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177041C125AF400031899 /* potentiometerProgress-hd.png */; };
+		08B177111C125AF400031899 /* potentiometerProgress-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177051C125AF400031899 /* potentiometerProgress-ipad.png */; };
+		08B177121C125AF400031899 /* potentiometerProgress-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177061C125AF400031899 /* potentiometerProgress-ipadhd.png */; };
+		08B177131C125AF400031899 /* potentiometerProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177071C125AF400031899 /* potentiometerProgress.png */; };
+		08B177141C125AF400031899 /* potentiometerTrack-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177081C125AF400031899 /* potentiometerTrack-hd.png */; };
+		08B177151C125AF400031899 /* potentiometerTrack-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B177091C125AF400031899 /* potentiometerTrack-ipad.png */; };
+		08B177161C125AF400031899 /* potentiometerTrack-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B1770A1C125AF400031899 /* potentiometerTrack-ipadhd.png */; };
+		08B177171C125AF400031899 /* potentiometerTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B1770B1C125AF400031899 /* potentiometerTrack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -664,6 +677,20 @@
 		08B176F01C1255E100031899 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		08B176F11C1255E100031899 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		08B176F31C1255E100031899 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
+		08B176FD1C12563300031899 /* CCControlPotentiometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlPotentiometer.h; sourceTree = SOURCE_ROOT; };
+		08B176FE1C12563300031899 /* CCControlPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlPotentiometer.m; sourceTree = SOURCE_ROOT; };
+		08B177001C125AF400031899 /* potentiometerButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-hd.png"; sourceTree = "<group>"; };
+		08B177011C125AF400031899 /* potentiometerButton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-ipad.png"; sourceTree = "<group>"; };
+		08B177021C125AF400031899 /* potentiometerButton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-ipadhd.png"; sourceTree = "<group>"; };
+		08B177031C125AF400031899 /* potentiometerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potentiometerButton.png; sourceTree = "<group>"; };
+		08B177041C125AF400031899 /* potentiometerProgress-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerProgress-hd.png"; sourceTree = "<group>"; };
+		08B177051C125AF400031899 /* potentiometerProgress-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerProgress-ipad.png"; sourceTree = "<group>"; };
+		08B177061C125AF400031899 /* potentiometerProgress-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerProgress-ipadhd.png"; sourceTree = "<group>"; };
+		08B177071C125AF400031899 /* potentiometerProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potentiometerProgress.png; sourceTree = "<group>"; };
+		08B177081C125AF400031899 /* potentiometerTrack-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerTrack-hd.png"; sourceTree = "<group>"; };
+		08B177091C125AF400031899 /* potentiometerTrack-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerTrack-ipad.png"; sourceTree = "<group>"; };
+		08B1770A1C125AF400031899 /* potentiometerTrack-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerTrack-ipadhd.png"; sourceTree = "<group>"; };
+		08B1770B1C125AF400031899 /* potentiometerTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potentiometerTrack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -710,6 +737,18 @@
 		08B174381C1255DF00031899 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				08B177001C125AF400031899 /* potentiometerButton-hd.png */,
+				08B177011C125AF400031899 /* potentiometerButton-ipad.png */,
+				08B177021C125AF400031899 /* potentiometerButton-ipadhd.png */,
+				08B177031C125AF400031899 /* potentiometerButton.png */,
+				08B177041C125AF400031899 /* potentiometerProgress-hd.png */,
+				08B177051C125AF400031899 /* potentiometerProgress-ipad.png */,
+				08B177061C125AF400031899 /* potentiometerProgress-ipadhd.png */,
+				08B177071C125AF400031899 /* potentiometerProgress.png */,
+				08B177081C125AF400031899 /* potentiometerTrack-hd.png */,
+				08B177091C125AF400031899 /* potentiometerTrack-ipad.png */,
+				08B1770A1C125AF400031899 /* potentiometerTrack-ipadhd.png */,
+				08B1770B1C125AF400031899 /* potentiometerTrack.png */,
 				08B174391C1255DF00031899 /* Default.png */,
 				08B1743B1C1255DF00031899 /* Default@2x.png */,
 				08B1743D1C1255DF00031899 /* Default-568h@2x.png */,
@@ -754,6 +793,8 @@
 		08B174641C1255DF00031899 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				08B176FD1C12563300031899 /* CCControlPotentiometer.h */,
+				08B176FE1C12563300031899 /* CCControlPotentiometer.m */,
 				08B175411C1255E000031899 /* LICENSE_cocos2d.txt */,
 				08B1761B1C1255E100031899 /* LICENSE_CCBReader.txt */,
 				08B176E61C1255E100031899 /* LICENSE_Chipmunk.txt */,
@@ -1623,29 +1664,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B177101C125AF400031899 /* potentiometerProgress-hd.png in Resources */,
+				08B177171C125AF400031899 /* potentiometerTrack.png in Resources */,
 				08B1743C1C1255DF00031899 /* Default@2x.png in Resources */,
 				08B176E71C1255E100031899 /* LICENSE_Chipmunk.txt in Resources */,
+				08B177141C125AF400031899 /* potentiometerTrack-hd.png in Resources */,
 				08B1744F1C1255DF00031899 /* Icon-120.png in Resources */,
 				08B174451C1255DF00031899 /* Icon@2x.png in Resources */,
 				08B174571C1255DF00031899 /* Icon-Small@2x.png in Resources */,
+				08B1770D1C125AF400031899 /* potentiometerButton-ipad.png in Resources */,
 				08B174491C1255DF00031899 /* Icon-72@2x.png in Resources */,
 				08B1743A1C1255DF00031899 /* Default.png in Resources */,
 				08B174431C1255DF00031899 /* Icon.png in Resources */,
+				08B177121C125AF400031899 /* potentiometerProgress-ipadhd.png in Resources */,
+				08B177161C125AF400031899 /* potentiometerTrack-ipadhd.png in Resources */,
+				08B177111C125AF400031899 /* potentiometerProgress-ipad.png in Resources */,
 				08B174511C1255DF00031899 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				08B174401C1255DF00031899 /* Default-Landscape~ipad.png in Resources */,
 				08B174551C1255DF00031899 /* Icon-Small.png in Resources */,
 				08B174531C1255DF00031899 /* Icon-Small-50.png in Resources */,
+				08B177131C125AF400031899 /* potentiometerProgress.png in Resources */,
+				08B1770C1C125AF400031899 /* potentiometerButton-hd.png in Resources */,
 				08B176F41C1255E100031899 /* white_square.png in Resources */,
 				08B174471C1255DF00031899 /* Icon-72.png in Resources */,
 				08B175421C1255E000031899 /* LICENSE_cocos2d.txt in Resources */,
+				08B1770F1C125AF400031899 /* potentiometerButton.png in Resources */,
 				08B175451C1255E000031899 /* CCEffectRenderer.h in Resources */,
 				08B1743E1C1255DF00031899 /* Default-568h@2x.png in Resources */,
 				08B1745E1C1255DF00031899 /* iTunesArtwork in Resources */,
 				08B1761C1C1255E100031899 /* LICENSE_CCBReader.txt in Resources */,
 				08B174591C1255DF00031899 /* Icon-Spotlight-iOS7.png in Resources */,
 				08B1744D1C1255DF00031899 /* Icon-76@2x.png in Resources */,
+				08B177151C125AF400031899 /* potentiometerTrack-ipad.png in Resources */,
 				08B1745B1C1255DF00031899 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				08B1744B1C1255DF00031899 /* Icon-76.png in Resources */,
+				08B1770E1C125AF400031899 /* potentiometerButton-ipadhd.png in Resources */,
 				08B174601C1255DF00031899 /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1664,6 +1717,7 @@
 				08B175471C1255E000031899 /* CCEffectRenderer.m in Sources */,
 				08B174BC1C1255DF00031899 /* ccFPSImages.m in Sources */,
 				08B175DD1C1255E000031899 /* base64.c in Sources */,
+				08B176FF1C12563300031899 /* CCControlPotentiometer.m in Sources */,
 				08B176281C1255E100031899 /* OALAudioActions.m in Sources */,
 				08B174F21C1255E000031899 /* CCPhysicsBody.m in Sources */,
 				08B1762B1C1255E100031899 /* OALUtilityActions.m in Sources */,
@@ -1910,6 +1964,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2d.CCPotentioMeterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1939,6 +1994,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2d.CCPotentioMeterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

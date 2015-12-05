@@ -11,41 +11,45 @@
 // -----------------------------------------------------------------
 
 #import "HelloWorldScene.h"
+#import "CCDirector.h"
+
 
 // -----------------------------------------------------------------------
 
 @implementation HelloWorldScene
 
-// -----------------------------------------------------------------------
-
-- (id)init
-{
-    // Apple recommend assigning self with supers return value
-    self = [super init];
-    
-    // The thing is, that if this fails, your app will 99.99% crash anyways, so why bother
-    // Just make an assert, so that you can catch it in debug
-    NSAssert(self, @"Whoops");
-    
-    // Background
-    CCSprite9Slice *background = [CCSprite9Slice spriteWithImageNamed:@"white_square.png"];
-    background.anchorPoint = CGPointZero;
-    background.contentSize = [CCDirector sharedDirector].viewSize;
-    background.color = [CCColor grayColor];
-    [self addChild:background];
-    
-    // The standard Hello World text
-    CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"ArialMT" fontSize:64];
-    label.positionType = CCPositionTypeNormalized;
-    label.position = (CGPoint){0.5, 0.5};
-    [self addChild:label];
-    
-    // done
+- (id)init {
+    if ((self = [super init])) {
+        self.valueLabel             = [CCLabelTTF labelWithString:@"" fontName:@"Helvecitca" fontSize:17.0];
+        _valueLabel.positionType    = CCPositionTypeNormalized;
+        _valueLabel.position        = ccp(0.5, 0.3);
+        [self addChild:_valueLabel];
+        
+        // Add the slider
+        self.potentiometer          = [CCControlPotentiometer potentiometerWithTrackFile:@"potentiometerTrack.png"
+                                                                            progressFile:@"potentiometerProgress.png"
+                                                                               thumbFile:@"potentiometerButton.png"];
+        _potentiometer.positionType  = CCPositionTypeNormalized;
+        _potentiometer.position      = ccp(0.5, 0.5);
+        _potentiometer.value         = 0.0f;
+        _potentiometer.continuous    = YES;
+        [_potentiometer setTarget:self selector:@selector(potentiometerTriggeredAction:)];
+        
+        [self addChild:_potentiometer];
+        
+    }
     return self;
 }
 
-// -----------------------------------------------------------------------
+-(void)potentiometerTriggeredAction:(CCControlPotentiometer*)sender {
+    self.valueLabel.string = [NSString stringWithFormat:@"%.02f", sender.value];
+}
 
+- (void)onEnterTransitionDidFinish {
+    [super onEnterTransitionDidFinish];
+    
+    [_potentiometer setValue:0.25f animated:YES];
+}
 @end
 
 

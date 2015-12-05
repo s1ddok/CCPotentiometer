@@ -12,6 +12,7 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "CCControlPotentiometer.h"
 #import "cocos2d-ui.h"
 
 // -----------------------------------------------------------------------
@@ -22,7 +23,11 @@
 
 - (instancetype)init;
 
-// -----------------------------------------------------------------------
+@property (nonatomic, strong) CCControlPotentiometer    *potentiometer;
+
+@property (nonatomic, strong) CCLabelTTF    *valueLabel;
+
+
 
 @end
 
