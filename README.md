@@ -1,5 +1,5 @@
 # CCPotentiometer
-Lightweight port of CCPotentiometer for cocos2d v2 to v3.4.9
+Lightweight port of CCPotentiometer for cocos2d from v2 to v3.4.9
 
 The example of usage can be seen in the demo.
 Here is what it looks like:
