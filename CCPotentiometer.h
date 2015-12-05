@@ -22,10 +22,9 @@
  * THE SOFTWARE.
  *
  */
+#import "CCControl.h"
 
-#include "CCControl.h"
-
-@class CCControl, CCProgressNode, CCSprite, CCColor;
+@class CCProgressNode, CCSprite, CCColor;
 
 /** 
  * Potentiometer control for Cocos2D.
